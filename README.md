@@ -1,6 +1,14 @@
-# Porcheria-OS
+# asm-protected-mode
 ## Introducton
 Simple bootloader to test switching from 16-bit real mode to 32-bit protected mode in assembly.
+Made as a training to the actual implementation for my [Porcheria-OS](https://github.com/Cotezzo/porcheria-os) project.
+
+## Covered Topics
+- Real Mode vs Protected Mode
+- P/S2 Controller and A20 Line
+- Global Descriptor Table (GDT)
+- CPU's Control Register 0
+- VGA Text UI
 
 ## Usage
 ### Installation

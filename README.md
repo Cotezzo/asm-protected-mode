@@ -10,11 +10,11 @@ The main necessary packages (apt) are:
 - `dosfstools` and `mtools`: filesystem utils.
 
 ### Makefile
-The Makefile creates a bootable image tat can be run on QEMU. The supported targets are:
+The Makefile creates a bootable image that can be run on QEMU. The supported targets are:
 - `make` or `make all`: build the image.
 - `make run`: build the image and run QEMU.
 - `make dbg`: build the image and run QEMU + GDB debugger.
-- `make clean`: deletes the project build directory.
+- `make clean`: deletes the project target directory.
 
 All the assembler, emulation and debugging configurations are set in the Makefile.
 The output directory for binary and image files is the `target` directory.
